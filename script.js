@@ -11,7 +11,7 @@ yesbtn.addEventListener("click", () => {
 });
 
 nobtn.addEventListener("mouseover", () => {
-  const nobtnReact = nobtn.getBoundingClientReact();
+  const nobtnReact = nobtn.getBoundingClientRect();
   const maxX = window.innerWidth - nobtnReact.width;
   const maxY = window.innerHeight - nobtnReact.height;
 
