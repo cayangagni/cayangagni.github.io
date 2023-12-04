@@ -10,14 +10,14 @@ yesbtn.addEventListener("click", () => {
     "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp";
 });
 
-nobtn.addEventListener("click", () => {
-  const NoBtnReact = nobtn.getBoundingClientReact();
-  const maxX = window.innerWidth - NoBtnReact.width;
-  const maxY = window.innerHeight - NoBtnReact.height;
+noBtn.addEventListener("mouseover", () => {
+  const noBtnRect = noBtn.getBoundingClientRect();
+  const maxX = window.innerWidth - noBtnRect.width;
+  const maxY = window.innerHeight - noBtnRect.height;
 
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
 
-  nobtn.style.left = randomX + "px";
-  nobtn.style.top = randomY + "px";
+  noBtn.style.left = randomX + "px";
+  noBtn.style.top = randomY + "px";
 });
