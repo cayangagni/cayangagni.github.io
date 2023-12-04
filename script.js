@@ -11,9 +11,9 @@ yesbtn.addEventListener("click", () => {
 });
 
 nobtn.addEventListener("click", () => {
-  const noBtnReact = nobtn.getBoundingClientReact();
-  const maxX = window.innerWidth - noBtnReact.width;
-  const maxY = window.innerHeight - noBtnReact.height;
+  const NoBtnReact = nobtn.getBoundingClientReact();
+  const maxX = window.innerWidth - NoBtnReact.width;
+  const maxY = window.innerHeight - NoBtnReact.height;
 
   const randomX = Math.floor(Math.random() * maxX);
   const randomY = Math.floor(Math.random() * maxY);
