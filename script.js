@@ -10,7 +10,7 @@ yesbtn.addEventListener("click", () => {
     "https://raw.githubusercontent.com/DzarelDeveloper/Img/main/gif.webp";
 });
 
-nobtn.addEventListener("click", () => {
+nobtn.addEventListener("mouseover", () => {
   const noBBtnReact = nobtn.getBoundingClientReact();
   const maxX = window.innerWidth - noBBtnReact.width;
   const maxY = window.innerHeight - noBBtnReact.height;
